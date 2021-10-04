@@ -1,0 +1,219 @@
+html,
+body {
+	background: black;
+	margin: 0;
+	padding: 0;
+}
+
+title {
+	background: purple;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	margin: 0;
+	padding: 0;
+	font-size: 90%;
+}
+
+h1 {
+	font-size: 115%;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 200%;
+	width: 65%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0 0 0;
+	background: rgb(146, 157, 252);
+	line-height: 2;
+	padding: 1%;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+h4 {
+	text-align: center;
+}
+
+h5 {
+	text-align: center;
+}
+
+h6 {
+	text-align: center;
+}
+
+p {
+	margin-bottom: 1%;
+    margin-top: 1%;
+	font-size: 75%;
+}
+
+a {
+	color: blue;
+	margin-left: 5%;
+	margin-right: 5%;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+	color: rgb(182, 0, 0);
+}
+
+footer {
+	font-size: 0.8rem;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+
+.output {
+	background: #eee;
+	position: relative;
+}
+
+pre {
+	font-size: 1.4em;
+	color: white;
+	padding: 0.5em 1em;
+	border-left: 1em solid #a68048;
+	background: rgb(95, 92, 92);
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+	width: 80%;
+}
+
+dt {
+	font-style: italic;
+	font-size: 1.2em;
+}
+
+dd {
+	margin-bottom: 1.4em;
+}
+
+table {
+	margin-top: 1em;
+}
+
+caption {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 1em;
+	text-align: left;
+}
+
+td,
+th {
+	padding: 10px;
+}
+
+.center {
+	text-align: center;
+}
+
+header h1 {
+	size: 200%;
+	border-bottom: 1px solid gray;
+}
+
+header h2 {
+	padding-bottom: 0.2em;
+	
+}
+
+aside {
+	padding: 1em;
+	background: rgb(83, 104, 138);
+	color: white;
+	margin-bottom: 1em;
+}
+
+aside h4 {
+	color: white;
+}
+
+footer {
+	border-top: 1px solid gray;
+	text-align: center;
+	font-size: 0.8em;
+	line-height: 2.1em;
+	margin-top: 1em;
+}
+
+blockquote {
+	font-style: italic;
+}
+
+.flowRight {
+	float: right;
+	margin-left: 10%;
+}
+
+.flowLeft {
+	float: left;
+	margin-right: 10%;
+	
+}
+.flowCenter {
+	float: center;
+}
+
+cite {
+	font-style: italic;
+}
+.centered {
+	position: absolute;
+	top: 80%;
+	left: 12%;
+	transform: translate(-10%, -10%);
+}
+picture {
+	font-size: 75%;
+	text-align: center;
+}
+figcaption{
+	font-size: 85%;
+    line-height: 2em;
+    color: mediumblue;
+    outline: black;
+    text-decoration-color: black;
+}
+figure.item {
+    /* To correctly align image, regardless of content height: */
+    vertical-align: top;
+    display: inline-block;
+    /* To horizontally center images and caption */
+    text-align: center;
+}
+img {
+    background-color: grey;
+}
+.caption {
+    /* Make the caption a block so it occupies its own line. */
+    display: block;
+}
+menu{
+    font-size: 70%;
+}
